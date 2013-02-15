@@ -151,45 +151,45 @@
     <dependencyManagement>
         <dependencies>
 
-        <dependency>
-            <groupId>org.apache.sling</groupId>
-            <artifactId>org.apache.sling.testing.tools</artifactId>
-            <version>${sling.tools.version}</version>
+            <dependency>
+                <groupId>org.apache.sling</groupId>
+                <artifactId>org.apache.sling.testing.tools</artifactId>
+                <version>${sling.tools.version}</version>
                 <scope>provided</scope>
-        </dependency>
-			
-        <dependency>
-            <groupId>org.apache.sling</groupId>
-            <artifactId>org.apache.sling.junit.core</artifactId>
-            <version>${sling.junit.version}</version>
-                <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.sling</groupId>
-            <artifactId>org.apache.sling.junit.remote</artifactId>
-            <version>${sling.junit.version}</version>
-                <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.sling</groupId>
-            <artifactId>org.apache.sling.junit.scriptable</artifactId>
-            <version>${sling.junit.version}</version>
-                <scope>provided</scope>
-        </dependency>
+            </dependency>
 
-        <!-- Samples (including base test classes) -->
-        <dependency>
-            <groupId>org.apache.sling</groupId>
-            <artifactId>org.apache.sling.testing.samples.sampletests</artifactId>
-            <version>${sling.junit.version}</version>
+            <dependency>
+                <groupId>org.apache.sling</groupId>
+                <artifactId>org.apache.sling.junit.core</artifactId>
+                <version>${sling.junit.version}</version>
                 <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.sling</groupId>
-            <artifactId>org.apache.sling.testing.samples.failingtests</artifactId>
-            <version>${sling.junit.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.sling</groupId>
+                <artifactId>org.apache.sling.junit.remote</artifactId>
+                <version>${sling.junit.version}</version>
                 <scope>provided</scope>
-        </dependency>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.sling</groupId>
+                <artifactId>org.apache.sling.junit.scriptable</artifactId>
+                <version>${sling.junit.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <!-- Samples (including base test classes) -->
+            <dependency>
+                <groupId>org.apache.sling</groupId>
+                <artifactId>org.apache.sling.testing.samples.sampletests</artifactId>
+                <version>${sling.junit.version}</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.sling</groupId>
+                <artifactId>org.apache.sling.testing.samples.failingtests</artifactId>
+                <version>${sling.junit.version}</version>
+                <scope>provided</scope>
+            </dependency>
 
             <dependency>
                 <groupId>javax.jcr</groupId>

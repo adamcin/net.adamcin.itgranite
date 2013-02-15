@@ -27,8 +27,8 @@
   -->
 
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<modelVersion>4.0.0</modelVersion>
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <modelVersion>4.0.0</modelVersion>
 
     <parent>
         <groupId>net.adamcin.itgranite</groupId>
@@ -37,13 +37,13 @@
         <relativePath>parent</relativePath>
     </parent>
 
-	<artifactId>net.adamcin.itgranite</artifactId>
-	<version>1-SNAPSHOT</version>
-	<packaging>pom</packaging>
+    <artifactId>net.adamcin.itgranite</artifactId>
+    <version>1-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
-	<modules>
-		<module>parent</module>
-		<module>graniteui</module>
-	</modules>
+    <modules>
+        <module>parent</module>
+        <module>graniteui</module>
+    </modules>
 
 </project>
