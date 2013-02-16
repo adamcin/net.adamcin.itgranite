@@ -49,7 +49,7 @@
         <encoding>UTF-8</encoding>
         <slf4j.version>1.6.1</slf4j.version>
         <junit.version>4.8.2</junit.version>
-        <sling.tools.version>1.0.5-SNAPSHOT</sling.tools.version>
+        <sling.tools.version>1.0.7-SNAPSHOT</sling.tools.version>
         <sling.junit.version>1.0.7-SNAPSHOT</sling.junit.version>
         <mockito.version>1.8.4</mockito.version>
         <maven.bundle.plugin.version>2.3.7</maven.bundle.plugin.version>
